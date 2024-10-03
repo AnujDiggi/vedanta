@@ -86,6 +86,7 @@
     opacity: 0px;
 }
 
+
 .Uploaded-Files figure {
     max-width: 100%;
     width: 193.2px;
@@ -95,14 +96,14 @@
     gap: 8px;
     border-radius: 10px;
     background: #F3F3F9;
-    position: relative; /* Allow checkbox to be positioned relative to this figure */
+    position: relative; 
 }
 
-/* Ensure the image size is as provided */
+
 .Uploaded-Files img {
     width: 177.2px;
     height: 164.55px;
-    object-fit: contain; /* Keep the image aspect ratio intact */
+    object-fit: contain; 
     display: block;
     margin: 0 auto;
 }
@@ -119,7 +120,7 @@
     background-color: white;
     border: 1px solid #339933;
     border-radius: 3px;
-    z-index: 10; /* Ensure the checkbox stays on top */
+    z-index: 10; 
 }
 
 .File-Name-image {
@@ -128,9 +129,9 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 8px;
+    
     position: absolute;
-    left: 1px;
+    left: 2px;
     padding: 4px;
 }
 
