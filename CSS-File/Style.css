@@ -13,9 +13,6 @@ body {
 
 /*-------------------Navbar----------------*/
 nav {
-    /* width: 1440px;
-    height: 84.2px;
-    margin: 0 auto; */
     padding: 24px 50px 0 50px;
     display: flex;
     justify-content: space-between;
@@ -36,12 +33,9 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 60.2px; */
 }
 
 .logo1 {
-    /* width: auto;
-    height: 54px; */
     width: 182px;
     height: 52.2px;
 }
@@ -65,9 +59,6 @@ nav {
 
 
 section {
-    /* width: 1300px;
-    height: 501px;
-    margin: 0 auto; */
     background-color: white;
     border-radius: 10px;
     padding: 18px 12px;
@@ -143,11 +134,8 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 1094px;
-    height: 28px; */
     gap: 40px;
     opacity: 0px;
-    /* margin: 0 auto; */
     margin: 0 53px;
 }
 
@@ -166,12 +154,6 @@ section {
     border: none;
     cursor: pointer;
 }
-
-/* .delete-button i {
-    font-size: 24px;
-    color: #F44336;
-} */
-
 
 
 .btn-recent {
@@ -201,14 +183,28 @@ section {
     text-align: center;
 }
 
+.delete-button
+{
+    width: 28px;
+height: 28px;
+padding: 3.5px 5.83px 3.5px 5.83px;
+}
+
+.delete-button img
+{
+    width: 16.33px;
+height: 21px;
+top: 3.5px;
+left: 5.83px;
+
+}
+
 
 /*------------------------------- Drop File Container-----------------------------------------*/
 
 
 .drop-file-container {
-    /* width: 781px; */
     height: 59px;
-    /* margin: 0 auto; */
     margin: 0 259.5px;
     border: 3px dashed #1890FF;
     background-color: #EFF8FE;
@@ -220,16 +216,6 @@ section {
     padding: 12px 25px;
 }
 
-/* .drop-file-container img {
-    width: 21.9px;
-    height: 20px;
-    top: 7.5px;
-    left: 6.55px;
-    gap: 0px;
-    border: 2px;
-    opacity: 0px;
-
-} */
 
 .upload-icon img{
     width: 35px;
@@ -262,10 +248,7 @@ section {
 
 
 .message-type-container {
-    /* width: 100%;
-    max-width: 1276px; */
     height: 50px;
-    /* margin: 0 auto; */
     margin: 0 12px;
     display: flex;
     align-items: center;
@@ -313,11 +296,6 @@ input::placeholder {
     width: 20px;
     height: 20px;
 }
-
-
-/*------------------Page2 CSS Upload files---------------------*/
-
-
 
 
 
