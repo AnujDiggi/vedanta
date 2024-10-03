@@ -175,6 +175,11 @@ section {
     background-color: #339933;
 }
 
+.btn-recent:hover
+{
+    color: #287a29;;
+}
+
 
 .btn-select {
     font-size: 14px;
@@ -183,19 +188,21 @@ section {
     text-align: center;
 }
 
-.delete-button
-{
-    width: 28px;
-height: 28px;
-padding: 3.5px 5.83px 3.5px 5.83px;
+.btn-select:hover{
+    color: #EEE;
 }
 
-.delete-button img
-{
+.delete-button {
+    width: 28px;
+    height: 28px;
+    padding: 3.5px 5.83px 3.5px 5.83px;
+}
+
+.delete-button img {
     width: 16.33px;
-height: 21px;
-top: 3.5px;
-left: 5.83px;
+    height: 21px;
+    top: 3.5px;
+    left: 5.83px;
 
 }
 
@@ -217,7 +224,7 @@ left: 5.83px;
 }
 
 
-.upload-icon img{
+.upload-icon img {
     width: 35px;
     height: 35px;
     border-radius: 40px;

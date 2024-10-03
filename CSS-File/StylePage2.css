@@ -1,10 +1,13 @@
+/*-------------------------------Second Page Style Page------------------------------*/
+
+/*---------------------------Section--------------------------------*/
+
 .section-for-page2 {
     height: 567.55px;
 }
 
 .section-page2-container {
     height: 283.55px;
-    /* height: 500px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,6 +17,8 @@
 
 
 }
+
+/*-----------------------File Upload Section--------------------------------*/
 
 .Uploading-delete-file-container {
     width: 1094px;
@@ -111,7 +116,9 @@
     margin: 0 auto;
 }
 
-/* Style for the checkbox */
+/* ----------------------------------- Style for the checkbox ---------------------------------- */
+
+
 .file-checkbox {
     position: absolute;
     top: 15px;
@@ -135,10 +142,9 @@
     position: absolute;
     left: -28px;
     margin-top: 8px;
-    /* padding: 4px; */
 }
 
-/* Styling for file icon and name */
+/* ------------------------------------- Styling for file icon and name ---------------------------------*/
 .File-Name-image img {
     width: 15px;
     height: 15px;
@@ -149,7 +155,6 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 14.52px;
-    text-align: left;
     color: #25213B;
     margin-left: -8px;
 }
@@ -164,11 +169,3 @@
     align-items: center;
 
 }
-
-/* .drop-file-page2 .upload-icon {
-    width: 35px;
-    height: 35px;
-    padding: 3px 2px 3.3px 3px;
-    border-radius: 40px;
-
-} */
