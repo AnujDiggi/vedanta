@@ -1,0 +1,170 @@
+.section-for-page2 {
+    height: 567.55px;
+}
+
+.section-page2-container {
+    height: 283.55px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    opacity: 0px;
+
+
+}
+
+.Uploading-delete-file-container {
+    width: 1094px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0px;
+    margin: 0 auto;
+
+}
+
+.select-page2 {
+    width: 226px;
+    height: 40px;
+    gap: 12px;
+    opacity: 0px;
+
+}
+
+.select-page2 .btn-recent::after {
+    bottom: -1px;
+}
+
+.drop-file-page2 {
+    width: 248px;
+    height: 40px;
+    padding: 8px 12px 8px 12px;
+    gap: 12px;
+    border-radius: 4px;
+    border: 2px;
+    opacity: 0px;
+    border: 3px dashed #1890FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EFF8FE;
+
+}
+
+
+.delete-selected-files {
+    width: 160px;
+    height: 36px;
+}
+
+.delete-selected-files button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    opacity: 0px;
+    padding: 4px 6px 4px 6px;
+    border-radius: 4px;
+    border: 1px;
+    opacity: 0px;
+    border: 1px solid #F44336
+}
+
+
+.Uploaded-Files {
+    max-width: 100%;
+    width: 1094px;
+    margin: 0 auto;
+    height: 203.55px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    opacity: 0px;
+}
+
+.Uploaded-Files figure {
+    max-width: 100%;
+    width: 193.2px;
+    margin: 0 auto;
+    height: 203.55px;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 10px;
+    background: #F3F3F9;
+    position: relative; /* Allow checkbox to be positioned relative to this figure */
+}
+
+/* Ensure the image size is as provided */
+.Uploaded-Files img {
+    width: 177.2px;
+    height: 164.55px;
+    object-fit: contain; /* Keep the image aspect ratio intact */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style for the checkbox */
+.file-checkbox {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #339933;
+    border-radius: 3px;
+    z-index: 10; /* Ensure the checkbox stays on top */
+}
+
+.File-Name-image {
+    width: 177.2px;
+    height: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    left: 1px;
+    padding: 4px;
+}
+
+/* Styling for file icon and name */
+.File-Name-image img {
+    width: 15px;
+    height: 15px;
+}
+
+.file-name {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+    color: #25213B;
+}
+
+
+.drop-file-page2 .upload-icon img {
+    width: 15px;
+    height: 13.7px;
+    top: 3px;
+    left: 3px;
+    gap: 0px;
+    border: 1.5px;
+    opacity: 0px;
+
+}
+
+.drop-file-page2 .upload-icon {
+    width: 20px;
+    height: 20px;
+    padding: 3px 2px 3.3px 3px;
+    border-radius: 40px;
+
+}
