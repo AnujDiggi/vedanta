@@ -141,8 +141,8 @@ section {
 
 .select-files {
     display: flex;
-    width: 1066px;
-    height: 22px;
+    width: 226px;
+    height: 30px;
     gap: 12px;
     opacity: 0px;
 
@@ -175,9 +175,9 @@ section {
     background-color: #339933;
 }
 
-.btn-recent:hover
-{
-    color: #287a29;;
+.btn-recent:hover {
+    color: #287a29;
+    ;
 }
 
 
@@ -188,7 +188,7 @@ section {
     text-align: center;
 }
 
-.btn-select:hover{
+.btn-select:hover {
     color: #EEE;
 }
 
@@ -204,6 +204,33 @@ section {
     top: 3.5px;
     left: 5.83px;
 
+}
+
+.delete-selected-files {
+    display: none;
+}
+
+.delete-page2-files {
+    width: 180px;
+    height: 36px;
+    padding: 9px 6px;
+}
+
+.delete-page2-files button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    opacity: 0px;
+    padding: 4px 6px 4px 6px;
+    border-radius: 4px;
+    border: 1px solid #F44336;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -303,6 +330,89 @@ input::placeholder {
     width: 20px;
     height: 20px;
 }
+
+
+/*--------------------------------------------------------*/
+
+
+
+/* Initially hide the drop-file-page2 container */
+.drop-file-page2 {
+    display: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    gap: 16px; 
+}
+
+
+.choose-files {
+    width: 248px;
+    height: 40px;
+    padding: 8px 12px 8px 12px;
+    gap: 12px;
+    border-radius: 4px;
+    border: 2px;
+    opacity: 0px;
+    border: 3px dashed #1890FF;
+    background: #EFF8FE;
+}
+
+
+
+
+
+
+
+/*-----------------------------Upload Files-----------------------*/
+
+
+
+
+/* Initially, the uploaded files section is hidden */
+.Uploaded-Files {
+    display: none;
+    max-width: 100%;
+    width: 1094px;
+    margin: 0 auto;
+    height: 203.55px;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    opacity: 0px;
+    padding: 0 53px 18px 53px;
+}
+
+.Uploaded-Files figure {
+    max-width: 100%;
+    width: 193.2px;
+    margin: 0 auto;
+    height: 210.55px;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 10px;
+    background: #F3F3F9;
+    position: relative;
+}
+
+/* Checkbox styling */
+.file-checkbox {
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #339933;
+    border-radius: 3px;
+    z-index: 10;
+}
+
 
 
 
