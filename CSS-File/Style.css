@@ -65,7 +65,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin: 0 120px 90.8px 120px;
+    margin: 0 120px 80.8px 120px;
 }
 
 .section-header-container {
@@ -339,11 +339,6 @@ input::placeholder {
 /* Initially hide the drop-file-page2 container */
 .drop-file-page2 {
     display: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center; 
-    justify-content: center; 
-    gap: 16px; 
 }
 
 
@@ -357,7 +352,24 @@ input::placeholder {
     opacity: 0px;
     border: 3px dashed #1890FF;
     background: #EFF8FE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    cursor: pointer;
 }
+
+
+
+.choose-files .upload-icon img {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
@@ -371,12 +383,19 @@ input::placeholder {
 
 
 /* Initially, the uploaded files section is hidden */
-.Uploaded-Files {
+.Uploaded-Files{
     display: none;
+
+}
+
+
+#fileDetails
+{
     max-width: 100%;
     width: 1094px;
     margin: 0 auto;
     height: 203.55px;
+    display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     align-items: center;
@@ -385,7 +404,12 @@ input::placeholder {
     padding: 0 53px 18px 53px;
 }
 
-.Uploaded-Files figure {
+
+.File-Name-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 10px;
     max-width: 100%;
     width: 193.2px;
     margin: 0 auto;
@@ -396,6 +420,35 @@ input::placeholder {
     background: #F3F3F9;
     position: relative;
 }
+
+.file-info-row {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;
+    align-items: center; 
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.pdf-preview {
+    width: 177.2px;
+    height: 164.55px;
+}
+
+.pdf-image {
+    width: 15px; /* Size of the PDF icon */
+    height: 15px;
+}
+
+.file-name {
+    font-size: 14px;
+    text-align: left; 
+    word-wrap: break-word; 
+}
+
+
+
+
 
 /* Checkbox styling */
 .file-checkbox {
