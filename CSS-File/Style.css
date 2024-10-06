@@ -66,8 +66,6 @@ section {
     flex-direction: column;
     gap: 40px;
     margin: 0 120px 80.8px 120px;
-    max-height: 565.55px;
-    overflow-y: auto;
 }
 
 .section-header-container {
@@ -395,9 +393,9 @@ input::placeholder {
 
 #fileDetails
 {
-    /* max-width: 100%;
+    max-width: 100%;
     width: 1094px;
-    margin: 0 auto; */
+    margin: 0 auto;
     height: 203.55px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -405,7 +403,7 @@ input::placeholder {
     align-items: center;
     gap: 32px;
     opacity: 0px;
-    margin: 0 53px 18px 53px;
+    padding: 0 53px 18px 53px;
 }
 
 
