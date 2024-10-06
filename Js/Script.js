@@ -57,7 +57,8 @@ function renderUploadedFiles() {
         const fileName = document.createElement('div');
         fileName.className = 'file-name';
         //fileName.textContent = file.name;
-        fileName.textContent = file.name.split(' ')[0];
+        //fileName.textContent = file.name.split(' ')[0];
+        fileName.textContent = file.name.split(' ').slice(0, 2).join(' ');
 
 
         // Create a checkbox for each file
